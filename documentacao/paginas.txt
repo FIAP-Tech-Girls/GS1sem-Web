@@ -11,5 +11,3 @@ Alice + Arduino: Pagina dedicada pra explicar sobre as soluções especificament
 Duvidas frequentes: vai conter as dúvidas frequentes e quais benefícios e um formulário qualquer coisa pra enviar um email
 
 Login/Cadastro: tanto pq o de javascript pediu quanto pq daria pra dizer q posteriormente a pessoa poderia se cadastrar direto por la sem necessariamente precisar “baixar” a IA (n agr obvio pq eh complexo mas enfim)
-
-Modo Claro e Modo Escuro

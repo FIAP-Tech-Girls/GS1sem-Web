@@ -1,0 +1,8 @@
+Cores usadas:
+#000 - texto modo claro e alguns detalhes
+#AB803D - texto destaque na navbar (qual página está)
+#FFF - usado para usar gradiente no modo claro
+#e7e5d9 - usado no gradiente (colocar um cinza)
+#7A4B00- usado em destaque ao decorrer da página
+
+ - Usado cores mais escuras justamente pelo assunto sério.
