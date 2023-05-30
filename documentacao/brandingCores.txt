@@ -6,3 +6,4 @@ Cores usadas:
 #7A4B00- usado em destaque ao decorrer da página
 
  - Usado cores mais escuras justamente pelo assunto sério.
+- Fontes: Jura (texto), Chenla (alguns detalhes), Mochiy Pop P One (usado no banner e alguns detalhes)
