@@ -1,0 +1,15 @@
+O que vai conter em cada página?
+
+Home: animação de javascript e explicações gerais
+
+Tech Girls: resumo de quem somos + integrantes
+
+SFOME: explicação mais detalhada sobre esse projeto que foi criado com as Tech Girls e falar do pq o enfoque foi o desperdício (em geral, pq quanto mais desperdício, mais custo, mais aumento nos preços, dificulta acesso a comida e os outros motivos la)
+
+Alice + Arduino: Pagina dedicada pra explicar sobre as soluções especificamente, os objetivos e da pra falar um pouco sobre o diferencial e tal.
+
+Duvidas frequentes: vai conter as dúvidas frequentes e quais benefícios e um formulário qualquer coisa pra enviar um email
+
+Login/Cadastro: tanto pq o de javascript pediu quanto pq daria pra dizer q posteriormente a pessoa poderia se cadastrar direto por la sem necessariamente precisar “baixar” a IA (n agr obvio pq eh complexo mas enfim)
+
+Modo Claro e Modo Escuro
