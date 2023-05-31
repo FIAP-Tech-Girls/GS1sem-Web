@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Chenla&family=Jura:wght@300&family=Mochiy+Pop+One&display=swap');
 
 body{
-    background-image: linear-gradient(to right, grey, white);
+    background-image: linear-gradient(to bottom, white, #1E1E1E);
 }
 
 .titulo-home{
@@ -175,5 +175,59 @@ body{
     margin-left: 50px;
 }
 
+.conteudo-tech{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.conteudoTech{
+    font-family: 'Jura',sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.imagem-tech{
+    height: 500px;
+}
+
+.texto-tech{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Jura',sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+.conteudo-imagem-integrantes{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;  
+}
+
+.imagem-integrantes{
+    height: 200px;
+    padding: auto;
+    padding: 14px;
+}
+
+.imagem-legenda{
+    text-align: center;
+    font-family: 'Jura',sans-serif;
+    font-size: 18px;
+    color: black;
+}
 
 
