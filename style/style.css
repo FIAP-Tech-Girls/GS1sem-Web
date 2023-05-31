@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Chenla&family=Jura:wght@300&family=Mochiy+Pop+One&display=swap');
+
+body{
+    background-image: linear-gradient(to right, grey, white);
+}
+
+.titulo-home{
+    color: white;
+    font-family: "Mochiy Pop P One", monospace;
+    text-align: left;
+}
 
 .fa-angle-double-down {
     position: absolute;
@@ -37,6 +48,7 @@
     margin-top: auto;
     margin-bottom: auto;
     z-index: 10;
+    margin-bottom: 150px;
 }
 
 .scroll-conteudo button{
@@ -46,6 +58,7 @@
     background-color: transparent;
     cursor: pointer;
     transition: 500ms linear;
+    
 }
 
 .scroll-conteudo button:hover{
@@ -53,7 +66,7 @@
 }
 
 .scroll-conteudo h2{
-    font-family: 'Jura', sans-serif;
+    font-family: "Chenla",monospace;
     color: rgb(255, 255, 255);
     font-size: 80px;
 }
@@ -87,3 +100,80 @@
     text-align:center;
     font-size:20px;
 }
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 10px;
+
+}
+
+.cabecalho-menu-item{
+    font-family: "Cairo", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 24px;
+    font-weight: bold;
+    text-decoration-line: none ;
+
+}
+
+.cabecalho-menu-item:hover{
+    font-family: "Cairo", sans-serif;
+    color: rgb(126, 110, 59);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 24px;
+    font-weight: bold;
+    
+}
+
+.titulo-inicial{
+    font-family: "Mochiy Pop P One", cursive;
+
+}
+
+.conteudo-home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.conteudoHome{
+    font-family: 'Jura',sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.imagem-futuro{
+    height: 500px;
+}
+
+.texto-home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Jura',sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+
+
