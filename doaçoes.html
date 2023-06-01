@@ -35,28 +35,31 @@
         <p class="texto-tech">
             <center>
             <h1>Para fazer uma doação de alimentos...</h1>
-            <h3 class="texto-doacao">Preencha o formulário com as informações solicitadas. Após o envio. nossa equipe repassará mais informações pelo e-mail!</h3>
+            <h3 class="texto-doacao">Preencha o formulário com as informações solicitadas. Após o envio, nossa equipe repassará mais informações pelo e-mail!</h3>
             </center>
 
     </p>
 
     <div class="cadastro-doacao">
-        <h1 class="cadastro-titulo">Cadastro</h1>
-        <p class="cadastro-paragrafo">Nome:  <input class="cadastro-input" id="nomeUsuarioCadastro" type="text" placeholder="Insira seu nome completo" required ></p>
-        <br><br>
-        <p class="cadastro-paragrafo">E-mail: <input class="cadastro-input" id="emailUsuarioCadastro" type="email" placeholder="Insira seu e-mail" required ></p>
-        <br><br>
-        <p class="cadastro-paragrafo">CEP: <input class="cadastro-input" id="senhaUsuarioCadastro" type="number" placeholder="Insira seu CEP" required ></p>
-        <br> <br>
-        <p class="cadastro-paragrafo">Rua: <input class="cadastro-input" id="senhaUsuarioCadastro" type="text" placeholder="Insira o nome da sua rua" required ></p>
-        <br> <br>
-        <p class="cadastro-paragrafo">Bairro: <input class="cadastro-input" id="senhaUsuarioCadastro" type="text" placeholder="Insira seu bairro" required ></p>
-        <br> <br>
-        <p class="cadastro-paragrafo">Número: <input class="cadastro-input" id="senhaUsuarioCadastro" type="number" placeholder="Insira o número da casa" required ></p>
-        <br> <br>
-        <p class="cadastro-paragrafo">Complemento: <input class="cadastro-input" id="senhaUsuarioCadastro" type="text" placeholder="Insira seu CEP" ></p>
-        <br> <br>
-        <center><input type="submit" value="Cadastrar" class="cadastro-botao" id="cadastro-botao" onclick="validacaoCadastro()"></center>    
+        <center>
+            <form>
+                <h1 class="cadastro-titulo">Cadastro</h1>
+                <label class="cadastro-paragrafo">Nome: </label> <input class="cadastro-input" id="nomeUsuarioCadastro" type="text" placeholder="Insira seu nome completo" required >
+                <br><br>
+                <label class="cadastro-paragrafo">E-mail: </label>   <input class="cadastro-input" id="emailUsuarioCadastro" type="email" placeholder="Insira seu e-mail" required >
+                <br><br>
+                <label class="cadastro-paragrafo">CEP: </label>  <input class="cadastro-input" id="senhaUsuarioCadastro" type="number" placeholder="Insira seu CEP" required >
+                <br> <br>
+                <label class="cadastro-paragrafo">Rua: </label>  <input class="cadastro-input" id="senhaUsuarioCadastro" type="text" placeholder="Insira o nome da sua rua" required >
+                <br> <br>
+                <label class="cadastro-paragrafo">Bairro: </label>  <input class="cadastro-input" id="senhaUsuarioCadastro" type="text" placeholder="Insira seu bairro" required >
+                <br> <br>
+                <label class="cadastro-paragrafo">Número: </label>  <input class="cadastro-input" id="senhaUsuarioCadastro" type="number" placeholder="Insira o número da casa" required ></p>
+                <label class="cadastro-paragrafo">Complemento: </label>  <input class="cadastro-input" id="senhaUsuarioCadastro" type="text" placeholder="Insira seu CEP" >
+                <br> <br>
+                <center><input type="submit" value="Cadastrar" class="cadastro-botao" id="cadastro-botao" onclick="validacaoCadastro()"></center>   
+            </form> 
+        </center>
     </div>
     
 
