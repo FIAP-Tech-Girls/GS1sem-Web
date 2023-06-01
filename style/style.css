@@ -364,3 +364,11 @@ body{
 #imagemTechHome:hover{
     transform: scale(1.1);
 }
+
+#imagemSFOME{
+    transition: 500ms linear;
+}
+
+#imagemSFOME:hover{
+    transform: scale(1.1);
+}
