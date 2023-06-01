@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Chenla&family=Jura:wght@300&family=Mochiy+Pop+One&display=swap');
 
 body{
-    background-image: linear-gradient(to bottom, white, #1E1E1E);
+    background-image: linear-gradient(to bottom, rgb(97, 93, 93), #1E1E1E);
 }
 
 .titulo-home{
