@@ -358,3 +358,18 @@ body{
     text-align: center; 
     vertical-align: top; 
 }
+.legenda-home{
+    font-family: "Cairo", sans-serif;
+    text-decoration-line: none;
+}
+
+.link-home{
+    color: rgb(53, 36, 5);
+    font-family: "Cairo", sans-serif;
+    text-decoration-line: none;
+    font-weight: 100%;
+}
+
+.titulo-solucao{
+    font-family: "Mochiy Pop P One", cursive ;
+}
