@@ -255,6 +255,10 @@ body{
     margin-left: 50px;
 }
 
+.texto-doacao{
+    font-size: 30px;
+}
+
 .cadastro-doacao{
     background-color: rgb(24, 24, 24);
     height: 600px;
@@ -371,4 +375,15 @@ body{
 
 #imagemSFOME:hover{
     transform: scale(1.1);
+}
+
+#slide{
+    height: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.titulo-doacao{
+    font-family: "Cairo", monospace;
+    font-size: 40px;
 }

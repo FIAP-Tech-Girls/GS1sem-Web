@@ -26,11 +26,37 @@
     <div class="conteudoSFOME">
         <p class="texto-SFOME">
             A SFOME é uma empresa secundária, criada por nós, Tech Girls, com o objetivo de combater a fome no mundo e evitar mais desperdícios. Juntamente com o nosso site, onde possuem mais informações sobre o tema e nosso projeto, também possuem campanhas de conscientização nas redes sociais da empresa, para alcançar um público maior e para conscientizá-los do problema e como eles poderiam ajudar na campanha.
-            <center><h3>Quer fazer uma doação? Saber onde nos localizamos? <a href="doaçoes.html">Clique aqui!</a></h3></center>
+            <center><h3>Quer fazer uma doação? Saber onde nos localizamos? <a class="link-home" href="doaçoes.html">Clique aqui!</a></h3></center>
 
-    </p>
-    
-</div>
+        </p>
+    </div>
+
+    <div id="slides">
+        <center><img id="slide"/></center>
+
+        <script>
+
+        var imagens=[
+        'imagens/logo1.png',
+        'imagens/fiap.png',
+        'imagens/arduino.png',
+        'imagens/python.png',
+
+        ];
+
+        var Index = 0;
+        var time = 1000;
+
+        function slideShow(){
+            document.getElementById('slide').src = imagens[Index];
+            Index++;
+            if(Index == imagens.length){Index = 0;}
+            setTimeout("slideShow()", time);
+        }
+        slideShow();
+
+        </script>
+    </div>
 
     <footer>
         <div class="footer">
