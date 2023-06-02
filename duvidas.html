@@ -23,6 +23,21 @@
 
     <img class="imagem-solucoes" src="imagens/bannerDuvidasFrequentes.png" width="100%">
 
+    <div class="cadastro-doacao">
+        <center>
+            <form>
+                <h1 class="duvida-titulo">Formulario</h1>
+                <label class="duvida-paragrafo">Nome: </label> <input class="cadastro-input" id="nomeUsuarioCadastro" type="text" placeholder="Insira seu nome completo" required >
+                <br><br>
+                <label class="duvida-paragrafo">E-mail: </label>   <input class="cadastro-input" id="emailUsuarioCadastro" type="email" placeholder="Insira seu e-mail" required >
+                <br><br>
+                <h2 class="duvida">Envie sua dúvida</h2>
+                <p><input type="text" id="mensagem" placeholder="Escreva sua dúvida aqui!" required></p><br>
+                <center><input type="submit" value="Enviar" class="cadastro-botao" id="cadastro-botao" onclick="validacaoCadastro()"></center>   
+            </form> 
+        </center>
+    </div>
+
     <footer>
         <div class="footer">
             <p class="copyright">Copyright &copy; 2023  Todos os direitos reservados</p>
