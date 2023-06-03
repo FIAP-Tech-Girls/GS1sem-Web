@@ -21,24 +21,23 @@
         </nav>
     </header>
 
-    <main>
-        <div class="login">
-            <h1 class="login-titulo">Login</h1>
-            <p class="login-paragrafo">E-mail: <input class="login-input" id="emailUsuarioLogin" type="email" placeholder="Insira seu e-mail" required ></p>
-            <br><br>
-            <p class="login-paragrafo">Senha: <input class="login-input" id="senhaUsuarioLogin" type="password" placeholder="Insira sua senha" required ></p> <br>
-            <center><p class="login-paragrafo2">Esqueceu sua senha?<a href="" class="clique-login" onclick="alertaBotaoLogin()"> Clique aqui!</a></p></center>
-            <br><br>
-            <center><input type="submit" value="Enviar" class="login-botao" id="login-botao" onclick="validacaoLogin()"></center>
-            <center><p class="login-paragrafo2">Não possui cadastro? <a class="cadastro-login" href="cadastro.html">Cadastre-se aqui!</a></p></center>
-        </div>
-        
-    </main>
+    <div class="login">
+        <h1 class="login-titulo">Cadastro</h1>
+        <p class="login-paragrafo">Nome:  <input class="login-input" id="nomeUsuarioCadastro" type="text" placeholder="Insira seu nome completo" required ></p>
+        <br><br>
+        <p class="login-paragrafo">E-mail: <input class="login-input" id="emailUsuarioCadastro" type="email" placeholder="Insira seu e-mail" required ></p>
+        <br><br>
+        <p class="login-paragrafo">Senha: <input class="login-input" id="senhaUsuarioCadastro" type="password" placeholder="Insira sua senha" required ></p>
+        <br> <br>
+        <center><input type="submit" value="Cadastrar" class="cadastrologin-botao" id="cadastro-botao" onclick="validacaoCadastro()"></center>    </div>
+    
     <footer>
         <div class="footer">
             <p class="copyright">Copyright &copy; 2023  Todos os direitos reservados</p>
         </div>
-    </footer> 
-    <script src="script/script.js"></script>
+    </footer>
+    
+    <script src="javascript/script.js"></script>
+
 </body>
 </html>

@@ -1,14 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Chenla&family=Jura:wght@300&family=Mochiy+Pop+One&display=swap');
 
 body{
-    background-image: linear-gradient(to bottom, rgb(97, 93, 93), #1E1E1E);
+    background-image: linear-gradient(to bottom, rgb(233, 231, 231), #1E1E1E);
 }
 
-.titulo-home{
+#titulo-home{
     color: white;
     font-family: "Mochiy Pop P One", monospace;
     text-align: left;
+    font-size: 65px;
+    font-weight: bold;
+    margin-left: 10%;
 }
+
+#subtitulo-home{
+    color: white;
+    font-family: "Mochiy Pop P One", monospace;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20%;
+}
+
 
 .fa-angle-double-down {
     position: absolute;
@@ -88,11 +100,13 @@ body{
 .footer{
     text-align:center;
     justify-content: center;
-    margin-top: auto;
+    margin-top: 5%;
     padding-top: 4px;
     width: 100%;
     padding: 1px;
     color: black;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .copyright{
@@ -129,12 +143,11 @@ body{
 
 .cabecalho-menu-item:hover{
     font-family: "Cairo", sans-serif;
-    color: rgb(126, 110, 59);
+    color: #AB803D;
     font-weight: 400;
     font-size: 18px;
     padding: 24px;
     font-weight: bold;
-    
 }
 
 .logo-sfome{
@@ -144,6 +157,9 @@ body{
 
 .titulo-inicial{
     font-family: "Mochiy Pop P One", cursive;
+    margin-top: 7%;
+    font-size: 25px;
+    font-weight: bold;
 
 }
 
@@ -166,6 +182,7 @@ body{
 
 .imagem-futuro{
     height: 500px;
+    margin-left: 10%;
 }
 
 .texto-home{
@@ -176,8 +193,10 @@ body{
     font-family:'Jura',sans-serif;
     color: black;
     text-align: left;
-    font-size: 24px;
+    font-size: 30px;
     margin-left: 50px;
+    margin-right: 10%;
+    font-weight: bold;
 }
 
 .conteudo-tech{
@@ -199,6 +218,8 @@ body{
 
 .imagem-tech{
     height: 500px;
+    margin-right: 10%;
+    border-radius: 10%;
 }
 
 .texto-tech{
@@ -209,8 +230,10 @@ body{
     font-family:'Jura',sans-serif;
     color: black;
     text-align: left;
-    font-size: 24px;
-    margin-left: 50px;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 50px;
+    font-weight: bold;
 }
 
 .conteudo-imagem-integrantes{
@@ -231,8 +254,10 @@ body{
 .imagem-legenda{
     text-align: center;
     font-family: 'Jura',sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     color: black;
+    font-weight: bold;
+    margin-bottom: 25%;
 }
 
 .conteudoSFOME{
@@ -253,14 +278,24 @@ body{
     text-align: left;
     font-size: 30px;
     margin-left: 50px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.legenda-SFOME{
+    font-family: "Cairo", sans-serif;
+    text-decoration-line: none;
+    font-size: 30px;
 }
 
 .texto-doacao{
     font-size: 30px;
 }
 
-.cadastro-doacao{
-    background-color: rgb(24, 24, 24);
+.form-doacao{
+    background-color: #BFA171;
     height: 600px;
     width: 600px;
     justify-content: center;
@@ -270,9 +305,10 @@ body{
     color: #ffffff;
     margin-bottom: 50px;
     margin-left: 32%;
+    font-weight: bold;
 }
 
-.cadastro-input{
+.form-input{
     border: none;
     outline: none;
     font-size: 15px;
@@ -284,8 +320,8 @@ body{
     font-size: 15px;
 }
 
-.cadastro-botao{
-    background-color: rgb(0, 0, 0);
+.form-botao{
+    background-color: #AB803D;
     border: none;
     padding: 15px;
     width: 100px;
@@ -293,18 +329,19 @@ body{
     color: white;
     font-size: 15px;
     margin-bottom: 10%;
+    font-weight: bold;
 }
 
-.cadastro-botao:hover{
-    background-color: rgb(66, 66, 66);
+.form-botao:hover{
+    background-color: #8f692c;
     cursor: pointer;
 }
 
-.cadastro-titulo{
+.form-titulo{
     font-family:'Jura',sans-serif;
 }
 
-.cadastro-paragrafo{
+.form-paragrafo{
     padding: 10px;
     font-family: 'Jura',sans-serif ;
 
@@ -319,19 +356,19 @@ body{
 
 }
 
-.conteudosolucoes{
-    font-family: 'Jura',sans-serif;
-    font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-}
 
-.imagem-solucoes{
+.imagem1-solucoes{
     height: 500px;
+    margin-left: 10%;
+    border-radius: 10%;
+}
+.imagem2-solucoes{
+    height: 500px;
+    margin-right: 10%;
+    border-radius: 10%;
 }
 
-.texto-solucoes{
+.texto-solucoes1{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -339,9 +376,36 @@ body{
     font-family:'Jura',sans-serif;
     color: black;
     text-align: left;
-    font-size: 24px;
+    font-size: 30px;
     margin-left: 50px;
+    font-weight: bold;
+    margin-right: 10%;
 }
+
+.texto-solucoes2{
+    justify-content: space-around;
+    font-family:'Jura',sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.texto-solucoes3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Jura',sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 30px;
+    margin-right: 50px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
 
 .frase-final{
     font-family: cairo;
@@ -350,10 +414,15 @@ body{
     line-height: 100%;
     text-align: center; 
     vertical-align: top; 
+    font-weight: bold;
+    margin: 10%;
 }
+
 .legenda-home{
     font-family: "Cairo", sans-serif;
     text-decoration-line: none;
+    font-size: 22px;
+    margin-bottom: 5%;
 }
 
 .link-home{
@@ -477,4 +546,87 @@ body{
 .duvidas-frequentes input:checked ~ .resposta {
 	display: block;
 
+}
+
+.login{
+    background-color: rgb(114, 31, 146);
+    height: 550px;
+    width: 500px;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    padding: 80px;
+    border-radius: 15px;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-left: 32%;
+}
+
+.login-input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.login-botao{
+    background-color: rgb(192, 107, 226);
+    border: none;
+    padding: 15px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10%;
+}
+
+.login-botao:hover{
+    background-color: rgb(165, 45, 212);
+    cursor: pointer;
+}
+
+.cadastrologin-botao{
+    background-color: rgb(192, 107, 226);
+    border: none;
+    padding: 15px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10%;
+}
+
+.cadastrologin-botao:hover{
+    background-color: rgb(165, 45, 212);
+    cursor: pointer;
+}
+
+.login-titulo{
+    font-family: 'Jura',sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.login-paragrafo{
+    font-family: 'Jura',sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.login-paragrafo2{
+    padding: 10px;
+    font-family: 'Jura',sans-serif;
+    color: white;
+    font-size: 17px;
+}
+
+.clique-login{
+    color: rgb(200, 109, 236) ;
+}
+
+.cadastro-login{
+    color: rgb(200, 109, 236) ;
 }
