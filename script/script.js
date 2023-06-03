@@ -12,13 +12,15 @@ function validacaoCadastro(){
     let ruaUsuarioCadastro = document.getElementById('ruaUsuarioCadastro').value 
     let bairroUsuarioCadastro = document.getElementById('bairroUsuarioCadastro').value
     let numeroUsuarioCadastro = document.getElementById('numeroUsuarioCadastro').value
+    let senhaUsuarioCadastro = document.getElementById('senhaUsuarioCadastro').value
 
-    if (nomeUsuarioCadastro == "" || emailUsuarioCadastro == "" || cepUsuarioCadastro == "" || ruaUsuarioCadastro == "" || bairroUsuarioCadastro == "" || numeroUsuarioCadastro == "") {
+    if (nomeUsuarioCadastro == "" || senhaUsuarioCadastro == "" || emailUsuarioCadastro == "" || cepUsuarioCadastro == "" || ruaUsuarioCadastro == "" || bairroUsuarioCadastro == "" || numeroUsuarioCadastro == "") {
         alert('Preencha todos campos antes de prosseguir')
     } else {
         alert("Seu cadastro foi efetivado!")
     }
 }
 
-
-
+function trocar(cor){
+    document.body.style.background = cor
+}
