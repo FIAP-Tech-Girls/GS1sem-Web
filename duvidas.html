@@ -21,8 +21,8 @@
         </nav>
     </header>
 
-    <img class="imagem-solucoes" src="imagens/bannerDuvidasFrequentes.png" width="100%">
-
+    <img class="imagem-duvidasf" src="imagens/bannerDuvidasFrequentes.png" width="100%">
+<center>
     <div class="duvidas-frequentes">
         <input type="checkbox" id="pergunta">
         <label for="pergunta">
@@ -30,9 +30,9 @@
         </label>
         <div class="resposta">
             <p>
-            Uma IA generativa funciona por meio de redes neurais, que são <br>
-            treinadas em grandes conjuntos de dados para aprender padrões e <br>
-            características específicas. Com base nesse treinamento, a IA pode <br>
+            Uma IA generativa funciona por meio de redes neurais, que são 
+            treinadas em grandes conjuntos de dados para aprender padrões e 
+            características específicas. Com base nesse treinamento, a IA pode 
             gerar novos exemplos que se assemelham ao conjunto de dados original.
             </p>
 
@@ -46,9 +46,9 @@
         </label>
         <div class="resposta">
             <p>
-                Embora uma IA generativa seja capaz de criar conteúdo de forma autônoma,<br>
-                atualmente ela é mais usada como uma ferramenta complementar à criatividade <br>
-                humana. A IA pode ajudar a gerar ideias e inspiração, mas a contribuição <br>
+                Embora uma IA generativa seja capaz de criar conteúdo de forma autônoma,
+                atualmente ela é mais usada como uma ferramenta complementar à criatividade 
+                humana. A IA pode ajudar a gerar ideias e inspiração, mas a contribuição 
                 humana ainda é essencial para a criação de conteúdo original e significativo.
             </p>
 
@@ -62,30 +62,32 @@
         </label>
         <div class="resposta">
             <p>
-                As IAs generativas têm um futuro promissor, com o avanço contínuo das técnicas <br>
-                de aprendizado de máquina. Espera-se que elas se tornem mais sofisticadas, <br>
-                capazes de gerar conteúdo cada vez mais realista e personalizado. No entanto,<br>
-                questões éticas e de responsabilidade também devem ser consideradas à medida <br>
+                As IAs generativas têm um futuro promissor, com o avanço contínuo das técnicas 
+                de aprendizado de máquina. Espera-se que elas se tornem mais sofisticadas, 
+                capazes de gerar conteúdo cada vez mais realista e personalizado. No entanto,
+                questões éticas e de responsabilidade também devem ser consideradas à medida 
                 que a tecnologia evolui.
             </p>
 
         </div>
     </div>
+</center>
+<div class="form-duvida">
+    <center>
+        <form>
+            <h1 class="duvidaf-titulo">Formulário</h1>
+            <label class="duvidaf-paragrafo">Nome: </label> <input class="form-input" id="nomeUsuarioCadastro" type="text" placeholder="Insira seu nome completo" required >
+            <br><br>
+            <label class="duvidaf-paragrafo">E-mail: </label>   <input class="form-input" id="emailUsuarioCadastro" type="email" placeholder="Insira seu e-mail" required >
+            <br><br>
+            <h2 class="duvidaf-paragrafo">Envie sua dúvida</h2>
+            <p><input type="text" id="mensagem" placeholder="Escreva sua dúvida aqui!" required></p><br>
+            <br> <br>
+            <center><input type="submit" value="Enviar" class="form-botao"  onclick="validacaoCadastro()"></center>   
+        </form> 
+    </center>
+</div>
 
-
-    <div class="cadastro-duvida">
-        <center>
-            <form>
-                <h1 class="cadastro-titulo">Formulário</h1>
-                <label class="cadastro-paragrafo">Nome: </label> <input class="cadastro-input" id="nomeUsuarioCadastro" type="text" placeholder="Insira seu nome completo" required >
-                <br><br>
-                <label class="cadastro-paragrafo">E-mail: </label>   <input class="cadastro-input" id="emailUsuarioCadastro" type="email" placeholder="Insira seu e-mail" required >
-                <h2 class="cadastro-paragrafo">Envie sua dúvida</h2>
-                <p><input type="text" id="mensagem" placeholder="Escreva sua dúvida aqui!" required></p><br>
-                <center><input type="submit" value="Enviar" class="duvida-botao" id="duvida-botao" onclick="validacaoCadastro()"></center>   
-            </form> 
-        </center>
-    </div>
 
     <footer>
         <div class="footer">
