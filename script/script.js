@@ -21,10 +21,21 @@ function validacaoCadastro(){
     }
 }
 
-function trocar(cor){
-    document.body.style.background = cor
-}
+const toggleButton = document.getElementById('botaoDarkMode');
+const body = document.body;
+const nav = document.nav;
+const footer = document.footer;
+const header = document.header;
 
+
+
+toggleButton.addEventListener('click', () => {
+  body.classList.toggle('dark-mode');
+  nav.classList.toggle('dark-mode');
+  footer.classList.toggle('dark-mode');
+  header.classList.toggle('dark-mode');
+});
+  
 
 function validacaoLogin(){
     let emailUsuarioLogin = document.getElementById('emailUsuarioLogin').value 

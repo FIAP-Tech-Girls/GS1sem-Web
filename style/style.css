@@ -706,3 +706,730 @@ input:checked + .botao-arrastar:before {
     font-weight: bold;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DARK MODE*/
+
+
+body.dark-mode{
+    background-image: linear-gradient(to bottom, #1E1E1E, #000000);
+    color: white;
+    
+}
+
+#titulo-home.dark-mode{
+    color: white;
+    font-family: "Mochiy Pop P One", monospace;
+    text-align: left;
+    font-size: 65px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+#subtitulo-home.dark-mode{
+    color: white;
+    font-family: "Mochiy Pop P One", monospace;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20%;
+}
+
+
+.fa-angle-double-down.dark-mode{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 20px;
+    width: 10px;
+    font-size: 2.5vw;
+    color: #aaa;
+    z-index: 11;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    cursor: pointer;
+    -webkit-animation: glow 4s infinite;
+    animation: glow 4s infinite;
+}
+
+.scroll.dark-mode{
+    background-image: url(../imagens/ScrollDownInicial.png.png);
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+}
+
+.scroll-conteudo.dark-mode{
+    padding: 0px 100px 50px 100px;
+    padding-top:190px;
+    position: absolute;
+    height: 50vh;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 10;
+    margin-bottom: 150px;
+}
+
+.scroll-conteudo button.dark-mode{
+    color:var(--cor-destaque-scrolldown);
+    padding-top:10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 500ms linear;
+    
+}
+
+.scroll-conteudo button:hover.dark-mode{
+    transform: scale(1.1);
+}
+
+.scroll-conteudo h2.dark-mode{
+    font-family: "Chenla",monospace;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+}
+
+.gradient-overlay.dark-mode{
+    height: 100%;
+    width: 100%;
+    background: -webkit-linear-gradient(#7c7b7b 20%, #b3b2b2);
+    background: linear-gradient(#adadad 20%, #7c7c7c);
+    opacity: 0.6;
+    filter: alpha(opacity=40);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.footer.dark-mode{
+    text-align:center;
+    justify-content: center;
+    margin-top: 5%;
+    padding-top: 4px;
+    width: 100%;
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.copyright.dark-mode{
+    font-family: 'Jura',sans-serif;
+    text-align:center;
+    font-size:20px;
+}
+
+.cabecalho.dark-mode{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.cabecalho-menu.dark-mode{
+    display: flex;
+    gap: 10px;
+
+}
+
+.cabecalho-menu-item.dark-mode{
+    font-family: "Cairo", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 24px;
+    font-weight: bold;
+    text-decoration-line: none ;
+
+}
+
+.cabecalho-menu-item:hover.dark-mode{
+    font-family: "Cairo", sans-serif;
+    color: #AB803D;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 24px;
+    font-weight: bold;
+}
+
+.logo-sfome.dark-mode{
+    margin-top: 100px;
+    height: 60px;
+    text-align: left;
+}
+
+.titulo-inicial.dark-mode{
+    font-family: "Mochiy Pop P One", cursive;
+    margin-top: 7%;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.conteudo-home.dark-mode{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.conteudoHome.dark-mode{
+    font-family: 'Jura',sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.imagem-futuro.dark-mode{
+    height: 500px;
+    margin-left: 10%;
+}
+
+.texto-home.dark-mode{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Jura',sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 10%;
+    font-weight: bold;
+}
+
+.conteudo-tech.dark-mode{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.conteudoTech.dark-mode{
+    font-family: 'Jura',sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.imagem-tech.dark-mode{
+    height: 500px;
+    margin-right: 10%;
+    border-radius: 10%;
+}
+
+.texto-tech.dark-mode{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Jura',sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+.conteudo-imagem-integrantes.dark-mode{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;  
+}
+
+.imagem-integrantes.dark-mode{
+    height: 200px;
+    padding: auto;
+    padding: 14px;
+}
+
+.imagem-legenda.dark-mode{
+    text-align: center;
+    font-family: 'Jura',sans-serif;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 25%;
+}
+
+.conteudoSFOME.dark-mode{
+    font-family: 'Jura',sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.texto-SFOME.dark-mode{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Jura',sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.legenda-SFOME.dark-mode{
+    font-family: "Cairo", sans-serif;
+    text-decoration-line: none;
+    font-size: 30px;
+}
+
+.texto-doacao.dark-mode{
+    font-size: 30px;
+}
+
+.form-doacao.dark-mode{
+    background-color: #BFA171;
+    height: 600px;
+    width: 600px;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    margin-left: 32%;
+    font-weight: bold;
+}
+
+.form-input.dark-mode{
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.login-cadastro.dark-mode{
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.form-botao.dark-mode{
+    background-color: #AB803D;
+    border: none;
+    padding: 15px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+
+.form-botao:hover.dark-mode{
+    background-color: #8f692c;
+    cursor: pointer;
+}
+
+.form-titulo.dark-mode{
+    font-family:'Jura',sans-serif;
+}
+
+.form-paragrafo.dark-mode{
+    padding: 10px;
+    font-family: 'Jura',sans-serif ;
+
+}
+
+.conteudo-solucoes.dark-mode{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+
+.imagem1-solucoes.dark-mode{
+    height: 500px;
+    margin-left: 10%;
+    border-radius: 10%;
+}
+.imagem2-solucoes.dark-mode{
+    height: 500px;
+    margin-right: 10%;
+    border-radius: 10%;
+}
+
+.texto-solucoes1.dark-mode{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Jura',sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: bold;
+    margin-right: 10%;
+}
+
+.texto-solucoes2.dark-mode{
+    justify-content: space-around;
+    font-family:'Jura',sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.texto-solucoes3.dark-mode{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family:'Jura',sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 30px;
+    margin-right: 50px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+
+.frase-final.dark-mode{
+    font-family: "Cairo", sans-serif;
+    font-size: 24px;
+    text-align: center; 
+    vertical-align: top; 
+    font-weight: bold;
+    margin: 10%;
+}
+
+.legenda-home.dark-mode{
+    font-family: "Cairo", sans-serif;
+    text-decoration-line: none;
+    font-size: 22px;
+    margin-bottom: 5%;
+}
+
+.link-home.dark-mode{
+    color: #7A4B00 ;
+    font-family: "Cairo", sans-serif;
+    text-decoration-line: none;
+    font-weight: 100%;
+}
+
+.titulo-solucao.dark-mode{
+    font-family: "Mochiy Pop P One", cursive ;
+}
+
+#imagemTechHome.dark-mode{
+    transition: 500ms linear;
+}
+
+#imagemTechHome:hover.dark-mode{
+    transform: scale(1.1);
+}
+
+#imagemSFOME.dark-mode{
+    transition: 500ms linear;
+}
+
+#imagemSFOME:hover.dark-mode{
+    transform: scale(1.1);
+}
+
+#slide.dark-mode{
+    height: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+#mensagem.dark-mode{
+    width:350px;
+    height:100px;
+}
+
+.duvidas-frequentes h2.dark-mode{
+    font-family: 'Jura', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.duvidas-frequentes p.dark-mode{
+    font-family: 'Jura', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.duvidas-frequentes.dark-mode{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 24px;
+    width: 50%;
+    font-weight: bold;
+}
+
+.duvidas-frequentes input,
+.duvidas-frequentes .resposta.dark-mode{ 
+	display:none;
+	text-align: center;
+}
+.duvidas-frequentes label .dark-mode{
+	display: inline-block;
+	font-weight: bold;
+	margin-bottom: 5px;
+	width: 100%;
+    font-family: 'Jura', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.duvidas-frequentes input:checked ~ .resposta .dark-mode{
+	display: block;
+
+}
+
+.form-duvida form.dark-mode{
+    background-color: #BFA171;
+    height: 600px;
+    width: 600px;
+    justify-content: center;
+    border-radius: 15px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.duvidaf-titulo.dark-mode{
+    font-family:'Jura',sans-serif;
+    padding: 30px;
+    font-size: 40px;
+    
+}
+
+.duvidaf-paragrafo.dark-mode{
+    padding: 10px;
+    font-family: 'Jura',sans-serif ;
+    font-size: 26px;
+}
+
+.login.dark-mode{
+    background-color: #BFA171;
+    height: 550px;
+    width: 500px;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    padding: 24px;
+    border-radius: 15px;
+    color: #fff;
+    margin-left: 32%;
+    margin-top: 5%;
+}
+
+.login-input.dark-mode{
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+
+.login-botao.dark-mode{
+    background-color: #AB803D;
+    border: none;
+    padding: 15px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.login-botao:hover.dark-mode{
+    background-color: #8f692c;
+    cursor: pointer;
+}
+
+.cadastrologin-botao.dark-mode{
+    background-color: #AB803D;
+    border: none;
+    padding: 15px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.cadastrologin-botao:hover.dark-mode{
+    background-color: #8f692c;
+    cursor: pointer;
+}
+
+.login-titulo.dark-mode{
+    font-family: 'Jura',sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.login-paragrafo.dark-mode{
+    font-family: 'Jura',sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.login-paragrafo2.dark-mode{
+    font-family: 'Jura',sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.clique-login.dark-mode{
+    color: #7A4B00 ;
+}
+
+.cadastro-login.dark-mode{
+    color: #7A4B00 ;
+}
+
+.imagem-duvidasf.dark-mode{
+    margin-bottom: 5%;
+}
+.botao-tema.dark-mode{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 17px;
+ }
+  
+ 
+.botao-tema input .dark-mode{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+  
+.botao-arrastar.dark-mode{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.botao-arrastar:before .dark-mode{
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .botao-arrastar.dark-mode {
+    background-color: #000000;
+}
+  
+input:focus + .botao-arrastar.dark-mode {
+    box-shadow: 0 0 1px #000000;
+}
+  
+input:checked + .botao-arrastar:before .dark-mode{
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+}
+  
+
+.botao-arrastar.dark-mode{
+    border-radius: 17px;
+}
+  
+.botao-arrastar:before.dark-mode {
+    border-radius: 50%;
+}
+
+.footer-navbar.dark-mode{
+    text-align: right;
+    gap: 10px;
+    list-style: none;
+}
+
+.cabecalho-footer-item.dark-mode{
+    font-family: "Cairo", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 24px;
+    font-weight: bold;
+    text-decoration-line: none ;
+}
+
+.cabecalho-footer-item:hover.dark-mode{
+    font-family: "Cairo", sans-serif;
+    color: #AB803D;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 24px;
+    font-weight: bold;
+}
+
