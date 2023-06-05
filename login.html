@@ -41,6 +41,21 @@
         
     </main>
 
+    <script>
+
+        function validacaoLogin(){
+            let emailUsuarioLogin = document.getElementById('emailUsuarioLogin').value 
+            let senhaUsuarioLogin = document.getElementById('senhaUsuarioLogin').value 
+            
+            if (emailUsuarioLogin == "" || senhaUsuarioLogin == "" ){
+                alert('Preencha todos campos antes de prosseguir')
+            } else {
+                alert("Bem-Vindo(a)!")
+            }
+        }
+
+    </script>
+
     <footer>
         <img class="logo-sfome" src="imagens/logo.png" alt="Logo SFOME">
         <div class="footer">

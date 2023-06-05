@@ -79,18 +79,31 @@
     <center>
         <form>
             <h1 class="duvidaf-titulo">Formulário</h1>
-            <label class="duvidaf-paragrafo">Nome: </label> <input class="form-input" id="nomeUsuarioCadastro" type="text" placeholder="Insira seu nome completo" required >
+            <label class="duvidaf-paragrafo">Nome: </label> <input class="form-input" id="nomeUsuarioDuvidas" type="text" placeholder="Insira seu nome completo" required >
             <br><br>
-            <label class="duvidaf-paragrafo">E-mail: </label>   <input class="form-input" id="emailUsuarioCadastro" type="email" placeholder="Insira seu e-mail" required >
+            <label class="duvidaf-paragrafo">E-mail: </label>   <input class="form-input" id="emailUsuarioDuvidas" type="email" placeholder="Insira seu e-mail" required >
             <br><br>
             <h2 class="duvidaf-paragrafo">Envie sua dúvida</h2>
             <p><input type="text" id="mensagem" placeholder="Escreva sua dúvida aqui!" required></p><br>
             <br> <br>
-            <input type="submit" value="Enviar" class="form-botao"  onclick="validacaoCadastro()">
+            <input type="submit" value="Enviar" class="form-botao"  onclick="validacaoDuvidas()">
         </form> 
     </center>
 </div>
 
+<script>
+    function validacaoDuvidas(){
+        let nomeUsuarioDuvidas = document.getElementById('nomeUsuarioDuvidas').value 
+        let emailUsuarioDuvidas = document.getElementById('emailUsuarioDuvidas').value
+
+        if (nomeUsuarioDuvidas == "" || emailUsuarioDuvidas == "" ){
+                alert('Preencha todos campos antes de prosseguir')
+            } else {
+                alert("Seu cadastro foi realizado!")
+            }
+        }
+
+</script>
 
 <footer>
     <img class="logo-sfome" src="imagens/logo.png" alt="Logo SFOME">
