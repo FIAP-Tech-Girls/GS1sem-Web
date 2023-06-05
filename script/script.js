@@ -24,3 +24,15 @@ function validacaoCadastro(){
 function trocar(cor){
     document.body.style.background = cor
 }
+
+
+function validacaoLogin(){
+    let emailUsuarioLogin = document.getElementById('emailUsuarioLogin').value 
+    let senhaUsuarioLogin = document.getElementById('senhaUsuarioLogin').value 
+    
+    if (emailUsuarioLogin == "" || senhaUsuarioLogin == "" ){
+        alert('Preencha todos campos antes de prosseguir')
+    } else {
+        alert("Bem-Vindo(a)!")
+    }
+}

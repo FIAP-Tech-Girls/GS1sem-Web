@@ -24,7 +24,8 @@
     </header>
 
     <main>
-        <div class="login">
+        <div>
+            <form class="login">
             <center>
             <h1 class="login-titulo">Login</h1>
             <p class="login-paragrafo">E-mail: <input class="login-input" id="emailUsuarioLogin" type="email" placeholder="Insira seu e-mail" required ></p>
@@ -35,14 +36,26 @@
             <center><input type="submit" value="Entrar" class="login-botao" id="login-botao" onclick="validacaoLogin()"></center>
             <center><p class="login-paragrafo2">Não possui cadastro? <a class="cadastro-login" href="cadastro.html">Cadastre-se aqui!</a></p></center>
             </center>
+            </form>
         </div>
         
     </main>
+
     <footer>
+        <img class="logo-sfome" src="imagens/logo.png" alt="Logo SFOME">
         <div class="footer">
             <p class="copyright">Copyright &copy; 2023  Todos os direitos reservados</p>
+            <nav class="footer-navbar">
+            <li><a class="cabecalho-footer-item" href="index.html">Home</a></li>
+            <li><a class="cabecalho-footer-item" href="tech.html">Tech Girls</a></li>
+            <li><a class="cabecalho-footer-item" href="sfome.html">SFOME</a></li>
+            <li><a class="cabecalho-footer-item" href="solucoes.html">Soluções propostas</a></li>
+            <li><a class="cabecalho-footer-item" href="duvidas.html">Dúvidas frequentes</a></li>
+            <li><a class="cabecalho-footer-item" href="login.html">Login</a></li>
+            </nav>
         </div>
     </footer> 
+    
     <script src="script/script.js"></script>
 </body>
 </html>

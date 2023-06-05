@@ -151,8 +151,9 @@ body{
 }
 
 .logo-sfome{
-    
+    margin-top: 100px;
     height: 60px;
+    text-align: left;
 }
 
 .titulo-inicial{
@@ -408,10 +409,8 @@ body{
 
 
 .frase-final{
-    font-family: cairo;
+    font-family: "Cairo", sans-serif;
     font-size: 24px;
-    line-height: 109px;
-    line-height: 100%;
     text-align: center; 
     vertical-align: top; 
     font-weight: bold;
@@ -681,3 +680,29 @@ input:checked + .botao-arrastar:before {
 .botao-arrastar:before {
     border-radius: 50%;
 }
+
+.footer-navbar{
+    text-align: right;
+    gap: 10px;
+    list-style: none;
+}
+
+.cabecalho-footer-item{
+    font-family: "Cairo", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 24px;
+    font-weight: bold;
+    text-decoration-line: none ;
+}
+
+.cabecalho-footer-item:hover{
+    font-family: "Cairo", sans-serif;
+    color: #AB803D;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 24px;
+    font-weight: bold;
+}
+
