@@ -512,7 +512,7 @@ body{
 
 }
 
-.form-duvida{
+.form-duvida form{
     background-color: #BFA171;
     height: 600px;
     width: 600px;
@@ -520,7 +520,6 @@ body{
     border-radius: 15px;
     color: #ffffff;
     margin-bottom: 50px;
-    margin-left: 35%;
     font-weight: bold;
     margin-top: 5%;
 }
