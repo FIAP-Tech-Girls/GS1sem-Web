@@ -13,6 +13,9 @@ toggleButton.addEventListener('click', () => {
     trocar(cor);
 });
 
+function alertaBotaoLogin(){
+    alert('Enviamos um e-mail para redefinir a senha.')
+}
 
 function validacaoCadastroDoacao(){
     let nomeUsuarioCadastro = document.getElementById('nomeUsuarioCadastro').value 
