@@ -5,7 +5,9 @@ paraScrollar.addEventListener('click', function() {
     secaoAlvo.scrollIntoView({ behavior: 'smooth', duration:1.8});
 });
 
-
+function trocar(cor){
+    document.body.style.background = cor
+}
   
 function validacaoCadastroDoacao(){
     let nomeUsuarioCadastro = document.getElementById('nomeUsuarioCadastro').value 

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Chenla&family=Jura:wght@300&family=Mochiy+Pop+One&display=swap');
 
 body{
-    background-image: linear-gradient(to bottom, rgb(233, 231, 231), #1E1E1E);
+    background-image: linear-gradient(to bottom, #bababa, #898989)
 }
 
 #titulo-home{
@@ -148,7 +148,7 @@ h1, h2, h3, h4{
 
 .cabecalho-menu-item:hover{
     font-family: "Cairo", sans-serif;
-    color: #AB803D;
+    color: #715528;
     font-weight: 400;
     font-size: 18px;
     padding: 24px;
@@ -327,7 +327,7 @@ h1, h2, h3, h4{
 }
 
 .form-botao{
-    background-color: #AB803D;
+    background-color: #715528;
     border: none;
     padding: 15px;
     width: 100px;
@@ -562,7 +562,7 @@ h1, h2, h3, h4{
 }
 
 .login-botao{
-    background-color: #AB803D;
+    background-color: #715528;
     border: none;
     padding: 15px;
     width: 100px;
@@ -578,7 +578,7 @@ h1, h2, h3, h4{
 }
 
 .cadastrologin-botao{
-    background-color: #AB803D;
+    background-color: #715528;
     border: none;
     padding: 15px;
     width: 100px;
@@ -707,7 +707,7 @@ input:checked + .botao-arrastar:before {
 
 .cabecalho-footer-item:hover{
     font-family: "Cairo", sans-serif;
-    color: #AB803D;
+    color: #715528;
     font-weight: 400;
     font-size: 18px;
     padding: 24px;
@@ -719,3 +719,4 @@ input:checked + .botao-arrastar:before {
     height: 60px;
     margin-left: 10%;
 }
+
