@@ -673,3 +673,9 @@ h1, h2, h3, h4{
     margin-left: 10%;
 }
 
+.msggData{
+    font-family: "Cairo", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -80,7 +80,6 @@
         <p class="copyright">Copyright &copy; 2023  Todos os direitos reservados</p>
         <section class="conteudo-home">
             <img class="logo-sfome-footer" src="imagens/logo.png" alt="Logo SFOME">
-            <p id="msgData"></p>
             <div class="footer">
                 <nav class="footer-navbar">
                     <li><a class="cabecalho-footer-item" href="index.html">Home</a></li>
@@ -92,20 +91,18 @@
                 </nav>
             </div>
         </section>
+        <p id="msgData" class="msggData"></p>
+        
         <script>
-          let data = new Date ()
-            let diaSemana = ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado']
-            document.write(diaSemana[data.getDay()]);
+            let data2 = new Date()
+            document.write(data2.toLocaleDateString());
             document.write(" ");
-            let hour = new Date ()
+            let hour = new Date()
             document.write(hour.getHours());
-            document.write(":")
-            let minutes = new Date ()
+            document.write(":");
+            let minutes = new Date()
             document.write(minutes.getMinutes());
-            document.write(":")
-            let seconds = new Date ()
-            document.write(seconds.getSeconds());
-            document.write("<br><br>")  
+            document.write("<br><br>");
     
         </script>
     </footer> 
