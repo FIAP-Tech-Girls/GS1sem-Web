@@ -18,4 +18,6 @@ function alertaBotaoLogin(){
 }
 
 
-
+let data = new Date ()
+document.write(data)
+document.write("<br><br>");
