@@ -64,7 +64,22 @@
                     <li><a class="cabecalho-footer-item" href="login.html">Login</a></li>
                 </nav>
             </div>
+            
         </section>
+        <p id="msgData" class="msggData"></p>
+        
+        <script>
+            let data2 = new Date()
+            document.write(data2.toLocaleDateString());
+            document.write(" ");
+            let hour = new Date()
+            document.write(hour.getHours());
+            document.write(":");
+            let minutes = new Date()
+            document.write(minutes.getMinutes());
+            document.write("<br><br>");
+    
+        </script>
     </footer> 
     
     <script src="script/script.js"></script>
