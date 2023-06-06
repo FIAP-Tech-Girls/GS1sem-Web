@@ -17,20 +17,5 @@ function alertaBotaoLogin(){
     alert('Enviamos um e-mail para redefinir a senha.')
 }
 
-function validacaoCadastroDoacao(){
-    let nomeUsuarioCadastro = document.getElementById('nomeUsuarioCadastro').value 
-    let emailUsuarioCadastro = document.getElementById('emailUsuarioCadastro').value 
-    let cepUsuarioCadastro = document.getElementById('cepUsuarioCadastro').value
-    let ruaUsuarioCadastro = document.getElementById('ruaUsuarioCadastro').value 
-    let bairroUsuarioCadastro = document.getElementById('bairroUsuarioCadastro').value
-    let numeroUsuarioCadastro = document.getElementById('numeroUsuarioCadastro').value
-    let senhaUsuarioCadastro = document.getElementById('senhaUsuarioCadastro').value
-
-    if (nomeUsuarioCadastro == "" || emailUsuarioCadastro == "" || cepUsuarioCadastro == "" || ruaUsuarioCadastro == "" || bairroUsuarioCadastro == "" || numeroUsuarioCadastro == "" || senhaUsuarioCadastro == "" ) {
-        alert('Preencha todos campos antes de prosseguir')
-    } else {
-        alert('Seu cadastro foi realizado!')
-    }
-}
 
 

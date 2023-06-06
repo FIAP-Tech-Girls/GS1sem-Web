@@ -42,25 +42,42 @@
 
     <div class="form-doacao">
         <center>
-            <form>
-                <h1 class="form-titulo">Formulário</h1>
-                <label class="form-paragrafo">Nome: </label> <input class="form-input" id="nomeUsuarioCadastro" type="text" placeholder="Insira seu nome completo" required >
-                <br><br>
-                <label class="form-paragrafo">E-mail: </label>   <input class="form-input" id="emailUsuarioCadastro" type="email" placeholder="Insira seu e-mail" required >
-                <br><br>
-                <label class="form-paragrafo">CEP: </label>  <input class="form-input" id="cepUsuarioCadastro" type="number" placeholder="Insira seu CEP" required >
-                <br> <br>
-                <label class="form-paragrafo">Rua: </label>  <input class="form-input" id="ruaUsuarioCadastro" type="text" placeholder="Insira o nome da sua rua" required >
-                <br> <br>
-                <label class="form-paragrafo">Bairro: </label>  <input class="form-input" id="bairroUsuarioCadastro" type="text" placeholder="Insira seu bairro" required >
-                <br> <br>
-                <label class="form-paragrafo">Número: </label>  <input class="form-input" id="numeroUsuarioCadastro" type="number" placeholder="Insira o número da casa" required ></p>
-                <label class="form-paragrafo">Complemento: </label>  <input class="form-input" id="complementoUsuarioCadastro" type="text" placeholder="(Se houver)" >
-                <br> <br>
-                <center><input type="submit" value="Enviar" class="form-botao"  onclick="validacaoCadastroDoacao()"></center>   
-            </form> 
+        <form>
+            <h1 class="form-titulo">Formulário</h1>
+            <label class="form-paragrafo">Nome:  <input class="form-input" id="nomecadastro" type="text" placeholder="Insira seu nome completo" required ></label>
+            <br><br>
+            <label class="form-paragrafo">E-mail: <input class="form-input" id="emailcadastro" type="email" placeholder="Insira seu e-mail" required ></label>
+            <br><br>
+            <label class="form-paragrafo">CEP: <input class="form-input" id="senhacadastro" type="number" placeholder="Insira seu CEP" required ></label>
+            <br> <br>
+            <label class="form-paragrafo">Rua: <input class="form-input" id="senhacadastro" type="text" placeholder="Insira o nome da sua rua" required ></label>
+            <br> <br>
+            <label class="form-paragrafo">Bairro: <input class="form-input" id="senhacadastro" type="text" placeholder="Insira seu bairro" required ></label>
+            <br> <br>
+            <label class="form-paragrafo">Número: <input class="form-input" id="senhacadastro" type="number" placeholder="Insira o número da casa" required ></label>
+            <br> <br>
+            <label class="form-paragrafo">Complemento: <input class="form-input"  type="text" placeholder="(Se houver)"  ></label>
+            <br> <br>
+            <center><input type="submit" value="Enviar" class="form-botao" id="cadastro-botao" onclick="validacaoCadastro()"></center> 
+         </form>
         </center>
     </div>
+
+    <script>
+
+        function validacaoCadastro(){
+        let nomecadastro = document.getElementById('nomecadastro').value 
+        let emailcadastro = document.getElementById('emailcadastro').value 
+        let senhacadastro = document.getElementById('senhacadastro').value 
+        
+        if (nomecadastro == "" || emailcadastro == "" ||senhacadastro == "" ){
+            alert('Preencha todos campos antes de prosseguir')
+        } else {
+            alert("Seu cadastro foi realizado!")
+            }
+        }
+    </script>
+   
     
 
     <footer>
