@@ -9,15 +9,8 @@ function trocar(cor){
     document.body.style.background = cor
 }
 
-toggleButton.addEventListener('click', () => {
-    trocar(cor);
-});
-
 function alertaBotaoLogin(){
     alert('Enviamos um e-mail para redefinir a senha.')
 }
 
 
-let data = new Date ()
-document.write(data)
-document.write("<br><br>");
