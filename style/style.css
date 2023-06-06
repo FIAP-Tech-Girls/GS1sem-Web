@@ -624,66 +624,19 @@ h1, h2, h3, h4{
 .imagem-duvidasf{
     margin-bottom: 5%;
 }
-.botao-tema{
-    position: relative;
-    display: inline-block;
-    width: 30px;
-    height: 17px;
- }
-  
- 
-.botao-tema input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-  
-  
-.botao-arrastar{
-    position: absolute;
-    cursor: pointer;
+
+.cor{
+    margin: auto;
     top: 0;
-    left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-  
-.botao-arrastar:before {
-    position: absolute;
-    content: "";
-    height: 13px;
-    width: 13px;
-    left: 2px;
-    bottom: 2px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-  
-input:checked + .botao-arrastar {
-    background-color: #000000;
-}
-  
-input:focus + .botao-arrastar {
-    box-shadow: 0 0 1px #2196F3;
-}
-  
-input:checked + .botao-arrastar:before {
-    -webkit-transform: translateX(13px);
-    -ms-transform: translateX(13px);
-    transform: translateX(13px);
-}
-  
-
-.botao-arrastar{
-    border-radius: 17px;
-}
-  
-.botao-arrastar:before {
+    left: 0;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
     border-radius: 50%;
+    box-shadow: 10px 4px 0 0 rgb(255, 255, 255);
 }
 
 .footer-navbar{

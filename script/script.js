@@ -8,7 +8,12 @@ paraScrollar.addEventListener('click', function() {
 function trocar(cor){
     document.body.style.background = cor
 }
-  
+
+toggleButton.addEventListener('click', () => {
+    trocar(cor);
+});
+
+
 function validacaoCadastroDoacao(){
     let nomeUsuarioCadastro = document.getElementById('nomeUsuarioCadastro').value 
     let emailUsuarioCadastro = document.getElementById('emailUsuarioCadastro').value 
