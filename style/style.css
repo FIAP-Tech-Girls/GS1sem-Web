@@ -65,6 +65,37 @@ h1, h2, h3, h4{
     margin-bottom: 150px;
 }
 
+.scroll-conteudo p{
+    font-size: 3rem;
+    color:#FFF;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+}
+
+.scroll-conteudo p span.texto-escrito{
+    color:#715528;
+}
+
+.scroll-conteudo p span.cursor{
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+
+.scroll-conteudo p span.cursor .typing{
+    animation: none;
+}
+@keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
+
 .scroll-conteudo button{
     color:var(--cor-destaque-scrolldown);
     padding-top:10px;
@@ -82,7 +113,7 @@ h1, h2, h3, h4{
 .scroll-conteudo h2{
     font-family: "Chenla",monospace;
     color: rgb(255, 255, 255);
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .gradient-overlay {
