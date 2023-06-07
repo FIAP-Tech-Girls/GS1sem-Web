@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -91,18 +91,12 @@
                 </nav>
             </div>
         </section>
-        <center><p id="msgData" class="msggData" ></p></center>
+        <center><p id="msgData" ></p></center>
         
         <script>
-            let data2 = new Date()
-            document.write(data2.toLocaleDateString());
-            document.write(" ");
-            let hour = new Date()
-            document.write(hour.getHours());
-            document.write(":");
-            let minutes = new Date()
-            document.write(minutes.getMinutes());
-            document.write("<br><br>");
+            msg = document.getElementById('msgData')
+            let data = new Date()
+            msg.innerHTML += `<p>${data}</p>`
     
         </script>
     </footer>
