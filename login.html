@@ -46,6 +46,9 @@
             
             if (emailUsuarioLogin == "" || senhaUsuarioLogin == "" ){
                 alert('Preencha todos campos antes de prosseguir')
+            } else if (emailUsuarioLogin == "Admin" && (senhaUsuarioLogin == "123456")) {
+                alert("Bem-Vindo(a)!")
+                window.open("https://www.unicef.org/brazil/comunicados-de-imprensa/relatorio-da-onu-numeros-globais-de-fome-subiram-para-cerca-de-828-milhoes-em-2021")
             } else {
                 alert("Bem-Vindo(a)!")
             }
